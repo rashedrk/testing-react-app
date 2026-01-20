@@ -29,6 +29,8 @@ const Users = () => {
 
   return (
     <div className="formWrapper">
+        <h1>Testing react app</h1>
+        <h2>React app test with vitest, RTL and jest-dom</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name</label>
         <input
