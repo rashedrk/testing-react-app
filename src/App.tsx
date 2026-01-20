@@ -1,9 +1,9 @@
 import "./App.css";
 import Users from "./components/Users/User";
+
 // import PrimaryButton from "./components/PrimaryButton";
 
 function App() {
-
   return (
     <>
       <div>
@@ -11,7 +11,7 @@ function App() {
         {/* <PrimaryButton/>
          */}
 
-             <Users />
+        <Users />
       </div>
     </>
   );

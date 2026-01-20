@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./users.css";
+import "./user.css";
 
 interface User {
   name: string;
