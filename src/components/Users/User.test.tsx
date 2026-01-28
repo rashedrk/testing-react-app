@@ -12,6 +12,9 @@ it('should render user component properly', () => {
         level: 2
     })
 
+    const paragraphElement = screen.getByRole('paragraph');
+
     expect(element).toBeInTheDocument();
-     expect(headingELement).toBeInTheDocument()
+    expect(headingELement).toBeInTheDocument();
+    expect(paragraphElement).toBeInTheDocument();
 })
