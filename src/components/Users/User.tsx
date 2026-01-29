@@ -31,6 +31,7 @@ const Users = () => {
     <div className="formWrapper">
         <h1>Testing react app</h1>
         <h2>React app test with vitest, RTL and jest-dom</h2>
+        <p>Testing the app with getByRoll </p>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name</label>
         <input
